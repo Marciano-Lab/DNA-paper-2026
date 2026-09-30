@@ -1,0 +1,2 @@
+test	status	expected	observed
+no retired reference survives in the release	PASS	none	none

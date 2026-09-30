@@ -1,0 +1,2 @@
+test	status	expected	observed
+every workbook cell matches its canonical table	PASS	107961 cells	0 mismatches

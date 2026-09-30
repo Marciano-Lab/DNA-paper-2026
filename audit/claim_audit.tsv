@@ -1,0 +1,57 @@
+claim_id	claim	expected_value	recomputed_value	status	notes
+C01	C>A codon-position events	48	48	PASS	
+C02	missense outcomes	33	33	PASS	
+C03	synonymous outcomes	11	11	PASS	
+C04	stop-codon outcomes	4	4	PASS	
+C05	directional amino-acid substitutions	18	18	PASS	
+C06	replaceable residues	11	11	PASS	
+C07	introducible residues	13	13	PASS	
+C08	residues accessible in one direction only	8	8	PASS	
+C09	accessible disease-associated states	3910	3910	PASS	
+C10	genes carrying an accessible state	1333	1333	PASS	
+C11	percentage of eligible missense states	5.7	5.7	PASS	
+C12	higher-confidence states	977	977	PASS	
+C13	higher-confidence genes	403	403	PASS	
+C14	exact nucleotide route	3115	3115	PASS	
+C15	same-position alternate-base route	584	584	PASS	
+C16	different-position route	211	211	PASS	
+C17	different-position genes	172	172	PASS	
+C18	different-position higher-confidence	48	48	PASS	
+C19	phenylalanine to leucine states	173	173	PASS	
+C20	serine to arginine states	38	38	PASS	
+C21	neurons accessible fraction	7.67	7.67	PASS	
+C22	neurons permutation expectation	6.03	6.03	PASS	
+C23	neurons adjusted P value	0.004	0.004	PASS	
+C24	nervous-system category adjusted P value	0.21	0.21	PASS	
+C25	joint interaction odds ratio	1.49	1.49	PASS	
+C26	joint interaction interval	1.08 to 2.06	1.08 to 2.06	PASS	
+C27	joint interaction P value	0.016	0.016	PASS	
+C28	estimable gene sets	945	945	PASS	
+C29	gene sets passing correction	102	102	PASS	
+C30	enriched gene sets	64	64	PASS	
+C31	depleted gene sets	38	38	PASS	
+C32	synaptic or neuronal gene sets tested	30	30	PASS	
+C33	synaptic or neuronal gene sets passing correction	8	8	PASS	
+C34	synaptic or neuronal significant sets that are enriched	8	8	PASS	
+C35	map-detected accessible coordinates	2146	2146	PASS	
+C36	map-detected higher-confidence coordinates	559	559	PASS	
+C37	map-supported interaction odds ratio	1.77	1.77	PASS	
+C38	map-supported interaction interval	1.22 to 2.57	1.22 to 2.57	PASS	
+C39	map-supported interaction P value	0.0027	0.0027	PASS	
+C40	higher-confidence supported odds ratio	2.87	2.87	PASS	
+C41	higher-confidence supported interval	1.42 to 5.80	1.42 to 5.80	PASS	
+C42	observed proteomic states	78	78	PASS	
+C43	genes carrying observed states	44	44	PASS	
+C44	observed states in hemoglobin genes	25	25	PASS	
+C45	endogenous lesion-support states	29	29	PASS	
+C46	induced-only lesion-support states	9	9	PASS	
+C47	states with no map detection	39	39	PASS	
+C48	states with an unresolved lesion coordinate	1	1	PASS	
+C49	genes in the gene-context model	4247	4247	PASS	
+C50	accessible states in model genes	3836	3836	PASS	
+C51	confidently localized sites in the proteogenomic source	1955	not recomputable here	NOT_MACHINE_CHECKABLE	published count from the source study, which this archive does not redistribute
+C52	source states reconciled to MANE Select	1658	not recomputable here	NOT_MACHINE_CHECKABLE	intermediate of the source extraction, retained in provenance
+C53	substitution-class compatible source states	93	not recomputable here	NOT_MACHINE_CHECKABLE	intermediate of the source extraction, retained in provenance
+C54	route-matched background positions	638965	not recomputable here	NOT_MACHINE_CHECKABLE	enumerated over all retained transcripts by the extraction step
+C55	background positions with map detection	346415	not recomputable here	NOT_MACHINE_CHECKABLE	enumerated by the extraction step, retained in provenance
+C56	background comparison odds ratio, interval and P value	1.03 (0.96 to 1.09), P = 0.40	not recomputable here	NOT_MACHINE_CHECKABLE	computed from the two counts above, which are not recomputable from the distributed datasets alone

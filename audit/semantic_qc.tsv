@@ -1,0 +1,14 @@
+test	status	expected	observed
+every disease state uses an accessible substitution direction	PASS	subset of the 18 directions	all within
+route classes partition the disease states	PASS	3910	3910
+the higher-confidence subset requires at least two review stars	PASS	all at least two	2
+no higher-confidence state is splice-proximal	PASS	none	0
+accessible states never exceed eligible states per gene	PASS	always	0
+the pathway direction field matches the odds ratio	PASS	always	0
+the pathway correction flag matches the q value	PASS	always	0
+every displayed gene set passes correction	PASS	always	0
+every displayed gene set carries a selection reason	PASS	always	0
+lesion-support categories are the four defined values	PASS	four defined categories	['endogenous', 'induced-only', 'not detected', 'unresolved']
+lesion-support categories partition the observed states	PASS	78	78
+observed states flagged as matching ClinVar are present in the state table	PASS	all matched states found	checked against S2
+every reported interaction estimate carries an interval	PASS	always	0

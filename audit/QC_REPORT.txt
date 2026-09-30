@@ -1,0 +1,24 @@
+structural quality control: 11 passed, 0 failed
+
+data dictionary: 4 passed, 0 failed
+
+semantic quality control: 13 passed, 0 failed
+
+retired references: 1 passed, 0 failed
+
+manuscript claims: 50 passed, 0 failed
+  [NOT_MACHINE_CHECKABLE] confidently localized sites in the proteogenomic source - expected 1955, recomputed not recomputable here
+  [NOT_MACHINE_CHECKABLE] source states reconciled to MANE Select - expected 1658, recomputed not recomputable here
+  [NOT_MACHINE_CHECKABLE] substitution-class compatible source states - expected 93, recomputed not recomputable here
+  [NOT_MACHINE_CHECKABLE] route-matched background positions - expected 638965, recomputed not recomputable here
+  [NOT_MACHINE_CHECKABLE] background positions with map detection - expected 346415, recomputed not recomputable here
+  [NOT_MACHINE_CHECKABLE] background comparison odds ratio, interval and P value - expected 1.03 (0.96 to 1.09), P = 0.40, recomputed not recomputable here
+
+figure geometry: 3 passed, 0 failed
+
+workbook verification: 1 passed, 0 failed
+
+release checksums: 0 passed, 1 failed
+  [FAIL] every byte-stable file matches its recorded checksum - expected 57 files, observed ['Figure_Legends.md changed', 'data/figure_inputs/figure_legend_records.json changed']
+
+FAIL: 1 failing checks

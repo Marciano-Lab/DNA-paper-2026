@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite the associated publication.
+title: >-
+  Reproducibility repository for "Disease-associated protein states accessible to 8-oxoguanine transcriptional miscoding without genomic mutation"
+type: software
+authors:
+  - family-names: Moreno-Caceres
+    given-names: Santiago
+  - family-names: Hayes
+    given-names: Alexis
+  - family-names: Eliason
+    given-names: Amber Delmas
+  - family-names: Marciano
+    given-names: David P.
+    email: marciano@fiu.edu
+    affiliation: >-
+      Center for Translational Science, Herbert Wertheim College of Medicine,
+      Florida International University, Port St. Lucie, FL, USA
+license: CC-BY-4.0

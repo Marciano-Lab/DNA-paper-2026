@@ -1,0 +1,196 @@
+variation_id,gene,pos,ref,alt,significance,review,name,in_state_table
+4783719,RAG1,559,R,S,Pathogenic,"criteria provided, single submitter",NM_000448.3(RAG1):c.1677G>C (p.Arg559Ser),False
+4783774,GCH1,196,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000161.3(GCH1):c.587C>A (p.Ala196Asp),True
+4783777,PSEN1,388,F,L,Pathogenic,"criteria provided, single submitter",NM_000021.4(PSEN1):c.1164C>G (p.Phe388Leu),True
+4783811,FUS,521,R,S,Pathogenic,"criteria provided, single submitter",NM_004960.4(FUS):c.1561C>A (p.Arg521Ser),True
+4783890,F9,315,D,E,Likely pathogenic,"criteria provided, single submitter",NM_000133.4(F9):c.945C>A (p.Asp315Glu),True
+4785254,PAX6,133,S,R,Pathogenic,"criteria provided, single submitter",NM_001368894.2(PAX6):c.397A>C (p.Ser133Arg),True
+4785412,CALM1,90,F,L,Pathogenic,"criteria provided, single submitter",NM_006888.6(CALM1):c.270C>G (p.Phe90Leu),True
+4788967,AR,691,D,E,Pathogenic,"criteria provided, single submitter",NM_000044.6(AR):c.2073C>A (p.Asp691Glu),True
+4789387,KIF1A,68,A,E,Pathogenic,"criteria provided, single submitter",NM_001244008.2(KIF1A):c.203C>A (p.Ala68Glu),True
+4789473,GRIN2B,952,P,Q,Likely pathogenic,"criteria provided, single submitter",NM_000834.5(GRIN2B):c.2855C>A (p.Pro952Gln),True
+4795446,IRF6,6,R,S,Likely pathogenic,"criteria provided, single submitter",NM_006147.4(IRF6):c.16C>A (p.Arg6Ser),True
+4795910,F8,303,A,E,Likely pathogenic,"criteria provided, single submitter",NM_000132.4(F8):c.908C>A (p.Ala303Glu),True
+4796009,TMC1,583,N,K,Pathogenic,"criteria provided, single submitter",NM_138691.3(TMC1):c.1749C>G (p.Asn583Lys),True
+4796582,GJB2,194,F,L,Likely pathogenic,"criteria provided, single submitter",NM_004004.6(GJB2):c.580T>C (p.Phe194Leu),True
+4796683,FBN1,1238,D,E,Likely pathogenic,"criteria provided, single submitter",NM_000138.5(FBN1):c.3714C>A (p.Asp1238Glu),True
+4799873,ALPL,393,N,K,Likely pathogenic,"criteria provided, single submitter",NM_000478.6(ALPL):c.1179C>G (p.Asn393Lys),True
+4799925,NRAS,50,T,N,Likely pathogenic,"criteria provided, single submitter",NM_002524.5(NRAS):c.149C>A (p.Thr50Asn),True
+4799939,GJA8,52,F,L,Likely pathogenic,"criteria provided, single submitter",NM_005267.5(GJA8):c.156C>G (p.Phe52Leu),True
+4800029,USH2A,4232,P,T,Likely pathogenic,"criteria provided, single submitter",NM_206933.4(USH2A):c.12694C>A (p.Pro4232Thr),True
+4800083,RYR2,2229,L,I,Likely pathogenic,"criteria provided, single submitter",NM_001035.3(RYR2):c.6685C>A (p.Leu2229Ile),True
+4800244,CNGA3,547,F,L,Pathogenic,"criteria provided, single submitter",NM_001298.3(CNGA3):c.1639T>C (p.Phe547Leu),True
+4800298,SCN1A,218,F,L,Pathogenic,"criteria provided, single submitter",NM_001165963.4(SCN1A):c.654C>A (p.Phe218Leu),True
+4800612,CBL,398,H,N,Likely pathogenic,"criteria provided, single submitter",NM_005188.4(CBL):c.1192C>A (p.His398Asn),True
+4801299,KRT5,329,N,K,Pathogenic,"criteria provided, single submitter",NM_000424.4(KRT5):c.987C>G (p.Asn329Lys),True
+4801338,TULP1,382,F,L,Likely pathogenic,"criteria provided, single submitter",NM_003322.6(TULP1):c.1144T>C (p.Phe382Leu),False
+4801345,PRPH2,210,P,H,Likely pathogenic,"criteria provided, single submitter",NM_000322.5(PRPH2):c.629C>A (p.Pro210His),True
+4801590,RAF1,486,D,E,Likely pathogenic,"criteria provided, single submitter",NM_002880.4(RAF1):c.1458T>G (p.Asp486Glu),False
+4802199,ABCD1,163,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000033.4(ABCD1):c.487C>A (p.Arg163Ser),True
+4802200,ABCD1,170,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000033.4(ABCD1):c.509C>A (p.Ala170Asp),True
+4802758,EXT1,280,R,S,Pathogenic,"criteria provided, single submitter",NM_000127.3(EXT1):c.840G>T (p.Arg280Ser),False
+4802769,CYP11B1,454,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000497.4(CYP11B1):c.1360C>A (p.Arg454Ser),True
+4805806,SLC12A1,544,P,T,Likely pathogenic,"criteria provided, single submitter",NM_000338.3(SLC12A1):c.1630C>A (p.Pro544Thr),True
+4812834,MYT1L,563,S,R,Likely pathogenic,"criteria provided, single submitter",NM_001303052.2(MYT1L):c.1687A>C (p.Ser563Arg),True
+4812843,LDLR,153,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000527.5(LDLR):c.457T>C (p.Phe153Leu),True
+4812845,MC4R,284,F,L,Likely pathogenic,"criteria provided, single submitter",NM_005912.3(MC4R):c.852T>G (p.Phe284Leu),False
+4812856,HTRA1,352,S,Y,Likely pathogenic,"criteria provided, single submitter",NM_002775.5(HTRA1):c.1055C>A (p.Ser352Tyr),True
+4812876,LDLR,136,D,E,Likely pathogenic,"criteria provided, single submitter",NM_000527.5(LDLR):c.408C>G (p.Asp136Glu),True
+4813204,RBMX,56,F,L,Likely pathogenic,"criteria provided, single submitter",NM_002139.4(RBMX):c.166T>C (p.Phe56Leu),False
+4813313,WAS,84,F,L,Likely pathogenic,no assertion criteria provided,NM_000377.3(WAS):c.252C>A (p.Phe84Leu),True
+4813330,EIF2B3,89,S,Y,Likely pathogenic,"criteria provided, single submitter",NM_020365.5(EIF2B3):c.266C>A (p.Ser89Tyr),True
+4813338,ZC4H2,200,A,E,Likely pathogenic,"criteria provided, single submitter",NM_018684.4(ZC4H2):c.599C>A (p.Ala200Glu),True
+4813545,PLP1,216,P,T,Pathogenic,"criteria provided, single submitter",NM_000533.5(PLP1):c.646C>A (p.Pro216Thr),True
+4813856,KCNQ4,549,F,L,Likely pathogenic,"criteria provided, single submitter",NM_004700.4(KCNQ4):c.1647C>G (p.Phe549Leu),True
+4814200,RYR2,4104,N,K,Likely pathogenic,"criteria provided, single submitter",NM_001035.3(RYR2):c.12312C>A (p.Asn4104Lys),True
+4814252,COL4A5,1568,S,R,Likely pathogenic,"criteria provided, single submitter",NM_033380.3(COL4A5):c.4702A>C (p.Ser1568Arg),False
+4814329,PCCB,106,S,R,Likely pathogenic,"criteria provided, single submitter",NM_000532.5(PCCB):c.318C>G (p.Ser106Arg),True
+4814348,SMPD1,465,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000543.5(SMPD1):c.1395T>A (p.Phe465Leu),False
+4814657,EYS,2502,S,R,Likely pathogenic,"criteria provided, single submitter",NM_001142800.2(EYS):c.7506C>A (p.Ser2502Arg),True
+4814830,DHCR7,146,N,K,Likely pathogenic,"criteria provided, single submitter",NM_001360.3(DHCR7):c.438T>A (p.Asn146Lys),False
+4815293,GJB2,14,N,K,Likely pathogenic,"criteria provided, single submitter",NM_004004.6(GJB2):c.42C>G (p.Asn14Lys),True
+4815385,NPHS1,976,R,S,Likely pathogenic,"criteria provided, single submitter",NM_004646.4(NPHS1):c.2928G>C (p.Arg976Ser),False
+4816056,CAPN3,334,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_000070.3(CAPN3):c.1002C>G (p.His334Gln),True
+4817024,BCKDHB,199,S,R,Likely pathogenic,"criteria provided, single submitter",NM_183050.4(BCKDHB):c.597T>G (p.Ser199Arg),False
+4817408,ACADVL,112,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000018.4(ACADVL):c.334T>C (p.Phe112Leu),True
+4817487,F11,460,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000128.4(F11):c.1378T>C (p.Phe460Leu),True
+4817507,F9,411,S,R,Pathogenic,"criteria provided, single submitter",NM_000133.4(F9):c.1233T>A (p.Ser411Arg),False
+4817508,F9,411,S,R,Pathogenic,"criteria provided, single submitter",NM_000133.4(F9):c.1233T>G (p.Ser411Arg),False
+4817587,GAA,674,H,Q,Likely pathogenic,"criteria provided, multiple submitters, no conflicts",NM_000152.5(GAA):c.2022C>G (p.His674Gln),True
+4817596,GAA,234,T,K,Likely pathogenic,"criteria provided, multiple submitters, no conflicts",NM_000152.5(GAA):c.701C>A (p.Thr234Lys),True
+4817628,GALT,132,H,Q,Pathogenic,"criteria provided, single submitter",NM_000155.4(GALT):c.396C>G (p.His132Gln),True
+4817664,GBA1,357,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.1070C>A (p.Ala357Asp),True
+4817670,GBA1,370,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.1108T>C (p.Phe370Leu),True
+4817673,GBA1,370,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.1110C>G (p.Phe370Leu),True
+4817731,GBA1,502,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.1504C>A (p.Arg502Ser),True
+4817755,GBA1,120,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.358T>C (p.Phe120Leu),False
+4817762,GBA1,148,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.444C>A (p.Phe148Leu),True
+4817792,GBA1,227,N,K,Pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.681T>A (p.Asn227Lys),False
+4817798,GBA1,240,P,H,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.719C>A (p.Pro240His),True
+4817815,GBA1,284,P,T,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.850C>A (p.Pro284Thr),True
+4817816,GBA1,284,P,H,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.851C>A (p.Pro284His),True
+4817821,GBA1,298,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.892T>C (p.Phe298Leu),True
+4817824,GBA1,310,S,R,Likely pathogenic,"criteria provided, single submitter",NM_000157.4(GBA1):c.930T>A (p.Ser310Arg),False
+4817879,HMGCL,76,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000191.3(HMGCL):c.228T>A (p.Phe76Leu),False
+4817914,IDUA,348,N,K,Likely pathogenic,reviewed by expert panel,NM_000203.5(IDUA):c.1044C>A (p.Asn348Lys),True
+4817995,MMUT,337,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000255.4(MMUT):c.1009T>C (p.Phe337Leu),False
+4818005,MMUT,147,D,E,Likely pathogenic,"criteria provided, single submitter",NM_000255.4(MMUT):c.441T>A (p.Asp147Glu),False
+4818064,NPC1,1036,T,K,Likely pathogenic,"criteria provided, single submitter",NM_000271.5(NPC1):c.3107C>A (p.Thr1036Lys),True
+4818087,PAH,407,P,T,Likely pathogenic,"criteria provided, single submitter",NM_000277.3(PAH):c.1219C>A (p.Pro407Thr),True
+4818096,PAH,322,A,D,Pathogenic,"criteria provided, single submitter",NM_000277.3(PAH):c.965C>A (p.Ala322Asp),True
+4818231,ABCC8,390,A,E,Likely pathogenic,"criteria provided, single submitter",NM_000352.6(ABCC8):c.1169C>A (p.Ala390Glu),True
+4818352,ASL,208,P,T,Likely pathogenic,"criteria provided, single submitter",NM_000048.4(ASL):c.622C>A (p.Pro208Thr),True
+4818509,CFTR,872,A,E,Likely pathogenic,"criteria provided, single submitter",NM_000492.4(CFTR):c.2615C>A (p.Ala872Glu),True
+4818522,ASPA,286,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000049.4(ASPA):c.857C>A (p.Ala286Asp),True
+4818544,CFTR,1239,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000492.4(CFTR):c.3717G>C (p.Arg1239Ser),False
+4818550,CFTR,1303,N,K,Likely pathogenic,"criteria provided, single submitter",NM_000492.4(CFTR):c.3909C>A (p.Asn1303Lys),True
+4818582,ASS1,124,D,E,Likely pathogenic,"criteria provided, single submitter",NM_054012.4(ASS1):c.372T>A (p.Asp124Glu),False
+4818620,HBA2,44,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000517.6(HBA2):c.130T>C (p.Phe44Leu),True
+4818698,HBA2,32,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000517.6(HBA2):c.96G>T (p.Arg32Ser),False
+4819386,PTEN,90,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000314.8(PTEN):c.270T>A (p.Phe90Leu),False
+4819420,RAB27A,115,S,R,Likely pathogenic,no assertion criteria provided,NM_183235.3(RAB27A):c.345C>G (p.Ser115Arg),True
+4819949,UBAP1L,93,T,K,Pathogenic,no assertion criteria provided,NM_001163692.2(UBAP1L):c.278C>A (p.Thr93Lys),True
+4819967,SSUH2,140,P,Q,Pathogenic,no assertion criteria provided,NM_001256748.3(SSUH2):c.419C>A (p.Pro140Gln),True
+4820154,POU3F4,312,A,E,Likely pathogenic,"criteria provided, single submitter",NM_000307.5(POU3F4):c.935C>A (p.Ala312Glu),True
+4820220,RYR1,464,Q,K,Likely pathogenic,reviewed by expert panel,NM_000540.3(RYR1):c.1390C>A (p.Gln464Lys),True
+4820424,MYH7,869,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000257.4(MYH7):c.2605C>A (p.Arg869Ser),True
+4820584,KIF5B,195,T,K,Likely pathogenic,"criteria provided, single submitter",NM_004521.3(KIF5B):c.584C>A (p.Thr195Lys),True
+4820588,AR,587,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000044.6(AR):c.1760C>A (p.Ala587Asp),True
+4820634,SOX9,154,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000346.4(SOX9):c.462C>A (p.Phe154Leu),True
+4822944,GJB4,137,F,L,Likely pathogenic,"criteria provided, single submitter",NM_153212.3(GJB4):c.411C>G (p.Phe137Leu),True
+4823492,HCFC1,72,P,T,Likely pathogenic,"criteria provided, single submitter",NM_005334.3(HCFC1):c.214C>A (p.Pro72Thr),True
+4827318,ACVRL1,314,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_000020.3(ACVRL1):c.942C>G (p.His314Gln),True
+4829481,SIX1,178,R,S,Likely pathogenic,"criteria provided, single submitter",NM_005982.4(SIX1):c.534A>T (p.Arg178Ser),False
+4840238,IRF6,351,F,L,Likely pathogenic,"criteria provided, single submitter",NM_006147.4(IRF6):c.1051T>C (p.Phe351Leu),True
+4840569,GJA8,80,L,M,Likely pathogenic,"criteria provided, single submitter",NM_005267.5(GJA8):c.238C>A (p.Leu80Met),True
+4845364,NF1,1279,S,R,Likely pathogenic,"criteria provided, single submitter",NM_001042492.3(NF1):c.3837C>G (p.Ser1279Arg),True
+4845373,KCNA1,322,S,R,Likely pathogenic,"criteria provided, single submitter",NM_000217.3(KCNA1):c.966T>G (p.Ser322Arg),False
+4845602,FBXO11,548,Q,K,Likely pathogenic,"criteria provided, single submitter",NM_001190274.2(FBXO11):c.1642C>A (p.Gln548Lys),True
+4845653,TNPO2,28,Q,K,Likely pathogenic,"criteria provided, single submitter",NM_001382241.1(TNPO2):c.82C>A (p.Gln28Lys),True
+4846610,ABCB4,831,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000443.4(ABCB4):c.2493G>C (p.Arg831Ser),False
+4847669,HBB,109,N,K,Likely pathogenic,"criteria provided, single submitter",NM_000518.5(HBB):c.327C>A (p.Asn109Lys),True
+4847880,MAN2B1,916,R,S,Pathogenic,"criteria provided, single submitter",NM_000528.4(MAN2B1):c.2746C>A (p.Arg916Ser),True
+4847951,PRF1,201,P,T,Likely pathogenic,"criteria provided, single submitter",NM_001083116.3(PRF1):c.601C>A (p.Pro201Thr),True
+4848081,CYP21A2,302,S,Y,Pathogenic,"criteria provided, single submitter",NM_000500.9(CYP21A2):c.905C>A (p.Ser302Tyr),True
+4849217,INF2,53,L,M,Likely pathogenic,"criteria provided, single submitter",NM_022489.4(INF2):c.157C>A (p.Leu53Met),True
+4849222,GCK,449,A,E,Likely pathogenic,"criteria provided, single submitter",NM_000162.5(GCK):c.1346C>A (p.Ala449Glu),True
+4849359,PPT1,75,T,N,Likely pathogenic,"criteria provided, single submitter",NM_000310.4(PPT1):c.224C>A (p.Thr75Asn),True
+4849522,F9,46,R,S,Pathogenic,reviewed by expert panel,NM_000133.4(F9):c.138G>C (p.Arg46Ser),False
+4849523,F9,46,R,S,Pathogenic,reviewed by expert panel,NM_000133.4(F9):c.138G>T (p.Arg46Ser),False
+4849853,KMT2D,5241,F,L,Likely pathogenic,"criteria provided, single submitter",NM_003482.4(KMT2D):c.15723T>G (p.Phe5241Leu),False
+4849901,CACNA1G,1503,Q,K,Likely pathogenic,no assertion criteria provided,NM_018896.5(CACNA1G):c.4507C>A (p.Gln1503Lys),True
+4849921,PATL2,459,S,Y,Likely pathogenic,no assertion criteria provided,NM_001387263.1(PATL2):c.1376C>A (p.Ser459Tyr),True
+4849924,TUBB8,70,P,T,Likely pathogenic,no assertion criteria provided,NM_177987.3(TUBB8):c.208C>A (p.Pro70Thr),True
+4850091,ALDH7A1,229,A,D,Likely pathogenic,"criteria provided, single submitter",NM_001182.5(ALDH7A1):c.686C>A (p.Ala229Asp),True
+4850374,CHST6,55,F,L,Likely pathogenic,"criteria provided, single submitter",NM_021615.5(CHST6):c.165C>A (p.Phe55Leu),True
+4850525,ACADVL,197,Q,K,Likely pathogenic,"criteria provided, single submitter",NM_000018.4(ACADVL):c.589C>A (p.Gln197Lys),True
+4850755,SMAD2,310,R,S,Likely pathogenic,"criteria provided, single submitter",NM_005901.6(SMAD2):c.930G>C (p.Arg310Ser),False
+4850800,SPAST,386,N,K,Likely pathogenic,"criteria provided, single submitter",NM_014946.4(SPAST):c.1158T>A (p.Asn386Lys),False
+4850882,OTC,329,N,K,Likely pathogenic,no assertion criteria provided,NM_000531.6(OTC):c.987C>G (p.Asn329Lys),True
+4851306,HYOU1,444,P,H,Pathogenic,no assertion criteria provided,NM_006389.5(HYOU1):c.1331C>A (p.Pro444His),True
+4851310,HUWE1,4230,F,L,Likely pathogenic,"criteria provided, single submitter",NM_031407.7(HUWE1):c.12688T>C (p.Phe4230Leu),True
+4851681,KCNA2,310,H,N,Likely pathogenic,"criteria provided, single submitter",NM_004974.4(KCNA2):c.928C>A (p.His310Asn),True
+4852830,MYO7A,893,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000260.4(MYO7A):c.2678C>A (p.Ala893Asp),True
+4852885,GCM2,67,R,S,Likely pathogenic,"criteria provided, single submitter",NM_004752.4(GCM2):c.199C>A (p.Arg67Ser),True
+4852890,CYP27B1,379,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000785.4(CYP27B1):c.1137A>T (p.Arg379Ser),False
+4852967,PLA2G6,660,P,T,Likely pathogenic,"criteria provided, single submitter",NM_003560.4(PLA2G6):c.1978C>A (p.Pro660Thr),True
+4853505,GCK,180,N,K,Pathogenic,"criteria provided, single submitter",NM_000162.5(GCK):c.540T>A (p.Asn180Lys),False
+4854517,TRAF7,617,F,L,Likely pathogenic,"criteria provided, single submitter",NM_032271.3(TRAF7):c.1851C>G (p.Phe617Leu),True
+4854630,SCN1A,940,S,Y,Likely pathogenic,"criteria provided, multiple submitters, no conflicts",NM_001165963.4(SCN1A):c.2819C>A (p.Ser940Tyr),True
+4854933,BTK,521,D,E,Likely pathogenic,"criteria provided, single submitter",NM_000061.3(BTK):c.1563C>A (p.Asp521Glu),True
+4855190,KDM4B,18,F,L,Likely pathogenic,"criteria provided, single submitter",NM_015015.3(KDM4B):c.54T>A (p.Phe18Leu),False
+4855517,RNF213,4120,F,L,Pathogenic,"criteria provided, single submitter",NM_001256071.3(RNF213):c.12358T>C (p.Phe4120Leu),True
+4855647,RAF1,611,H,N,Likely pathogenic,"criteria provided, single submitter",NM_002880.4(RAF1):c.1831C>A (p.His611Asn),True
+4855944,MAF,61,S,R,Likely pathogenic,"criteria provided, single submitter",NM_005360.5(MAF):c.183C>G (p.Ser61Arg),True
+4856006,RALA,130,D,E,Likely pathogenic,"criteria provided, single submitter",NM_005402.4(RALA):c.390T>G (p.Asp130Glu),False
+4856066,SYT1,310,D,E,Pathogenic,"criteria provided, single submitter",NM_005639.3(SYT1):c.930T>A (p.Asp310Glu),False
+4856068,SMC1A,36,S,Y,Likely pathogenic,"criteria provided, single submitter",NM_006306.4(SMC1A):c.107C>A (p.Ser36Tyr),True
+4856080,NR5A1,24,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_004959.5(NR5A1):c.72C>G (p.His24Gln),True
+4856116,KIF1A,309,S,Y,Likely pathogenic,"criteria provided, single submitter",NM_001244008.2(KIF1A):c.926C>A (p.Ser309Tyr),True
+4856269,BAP1,229,N,K,Likely pathogenic,"criteria provided, single submitter",NM_004656.4(BAP1):c.687C>G (p.Asn229Lys),True
+4856409,BRWD3,163,P,H,Likely pathogenic,"criteria provided, single submitter",NM_153252.5(BRWD3):c.488C>A (p.Pro163His),True
+4856604,GLA,194,T,N,Likely pathogenic,"criteria provided, single submitter",NM_000169.3(GLA):c.581C>A (p.Thr194Asn),True
+4856609,MYH7,717,D,E,Likely pathogenic,"criteria provided, single submitter",NM_000257.4(MYH7):c.2151C>A (p.Asp717Glu),True
+4856783,RPE65,131,N,K,Likely pathogenic,reviewed by expert panel,NM_000329.3(RPE65):c.393T>A (p.Asn131Lys),False
+4856786,RPE65,488,S,R,Likely pathogenic,reviewed by expert panel,NM_000329.3(RPE65):c.1464T>A (p.Ser488Arg),False
+4857002,EBF3,157,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_001375380.1(EBF3):c.471C>G (p.His157Gln),True
+4857034,MFN2,130,T,N,Likely pathogenic,"criteria provided, single submitter",NM_014874.4(MFN2):c.389C>A (p.Thr130Asn),True
+4857040,CRB2,800,N,K,Pathogenic,"criteria provided, single submitter",NM_173689.7(CRB2):c.2400C>A (p.Asn800Lys),True
+4857186,ZDHHC15,224,F,L,Likely pathogenic,"criteria provided, single submitter",NM_144969.3(ZDHHC15):c.672T>G (p.Phe224Leu),False
+4857233,ACTB,312,R,S,Likely pathogenic,"criteria provided, single submitter",NM_001101.5(ACTB):c.936G>T (p.Arg312Ser),False
+4857239,AVPR2,287,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000054.7(AVPR2):c.861C>A (p.Phe287Leu),True
+4857244,SLC5A2,453,F,L,Likely pathogenic,"criteria provided, single submitter",NM_003041.4(SLC5A2):c.1359C>A (p.Phe453Leu),True
+4857300,EDA,319,S,R,Likely pathogenic,"criteria provided, single submitter",NM_001399.5(EDA):c.957C>G (p.Ser319Arg),True
+4857316,NF1,2018,S,R,Likely pathogenic,"criteria provided, single submitter",NM_001042492.3(NF1):c.6054T>A (p.Ser2018Arg),False
+4857322,F8,1907,S,R,Likely pathogenic,"criteria provided, single submitter",NM_000132.4(F8):c.5719A>C (p.Ser1907Arg),True
+4857410,PDE1C,398,F,L,Likely pathogenic,"criteria provided, single submitter",NM_001191057.4(PDE1C):c.1194C>G (p.Phe398Leu),True
+4857505,GRIN2A,816,N,K,Likely pathogenic,"criteria provided, single submitter",NM_001134407.3(GRIN2A):c.2448C>A (p.Asn816Lys),True
+4857650,TUBA4A,283,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_006000.3(TUBA4A):c.849C>G (p.His283Gln),True
+4857786,FGFR3,550,P,H,Likely pathogenic,"criteria provided, single submitter",NM_000142.5(FGFR3):c.1649C>A (p.Pro550His),True
+4857864,TUBB3,171,P,T,Likely pathogenic,"criteria provided, single submitter",NM_006086.4(TUBB3):c.511C>A (p.Pro171Thr),True
+4864125,SCN1A,1808,F,L,Pathogenic,"criteria provided, single submitter",NM_001165963.4(SCN1A):c.5424C>G (p.Phe1808Leu),True
+4866444,VWA1,74,S,R,Likely pathogenic,"criteria provided, single submitter",NM_022834.5(VWA1):c.222T>G (p.Ser74Arg),False
+4871334,FH,366,S,R,Likely pathogenic,"criteria provided, single submitter",NM_000143.4(FH):c.1096A>C (p.Ser366Arg),False
+4871713,OFD1,81,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_003611.3(OFD1):c.243C>A (p.His81Gln),True
+4871906,MYH7,416,N,K,Likely pathogenic,"criteria provided, single submitter",NM_000257.4(MYH7):c.1248T>G (p.Asn416Lys),False
+4875518,LMNA,377,R,S,Likely pathogenic,"criteria provided, single submitter",NM_170707.4(LMNA):c.1129C>A (p.Arg377Ser),True
+4875587,IL11RA,200,P,T,Likely pathogenic,"criteria provided, single submitter",NM_001142784.3(IL11RA):c.598C>A (p.Pro200Thr),True
+4875633,TALDO1,171,S,Y,Likely pathogenic,"criteria provided, single submitter",NM_006755.2(TALDO1):c.512C>A (p.Ser171Tyr),True
+4875642,MYH3,462,D,E,Likely pathogenic,"criteria provided, single submitter",NM_002470.4(MYH3):c.1386C>G (p.Asp462Glu),True
+4876449,GAA,880,A,D,Likely pathogenic,"criteria provided, single submitter",NM_000152.5(GAA):c.2639C>A (p.Ala880Asp),True
+4876632,GAA,511,P,H,Likely pathogenic,"criteria provided, single submitter",NM_000152.5(GAA):c.1532C>A (p.Pro511His),True
+4879652,FDXR,372,P,H,Likely pathogenic,"criteria provided, single submitter",NM_024417.5(FDXR):c.1115C>A (p.Pro372His),True
+4879832,SCN8A,223,R,S,Likely pathogenic,reviewed by expert panel,NM_014191.4(SCN8A):c.669G>C (p.Arg223Ser),False
+4880000,PTEN,141,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_000314.8(PTEN):c.423T>G (p.His141Gln),False
+4880002,PTEN,160,T,N,Likely pathogenic,"criteria provided, single submitter",NM_000314.8(PTEN):c.479C>A (p.Thr160Asn),True
+4880006,PTEN,93,H,Q,Likely pathogenic,"criteria provided, single submitter",NM_000314.8(PTEN):c.279T>G (p.His93Gln),False
+4880319,BRAF,577,L,I,Likely pathogenic,"criteria provided, single submitter",NM_004333.6(BRAF):c.1729C>A (p.Leu577Ile),True
+4880485,TP53,270,F,L,Likely pathogenic,"criteria provided, single submitter",NM_000546.6(TP53):c.810T>G (p.Phe270Leu),False
+4882014,SCN1A,1789,F,L,Likely pathogenic,no assertion criteria provided,NM_001165963.4(SCN1A):c.5365T>C (p.Phe1789Leu),True
+4884216,GCDH,130,L,M,Likely pathogenic,no assertion criteria provided,NM_000159.4(GCDH):c.388C>A (p.Leu130Met),True
+4884371,GABRA1,294,T,K,Likely pathogenic,"criteria provided, single submitter",NM_001127644.2(GABRA1):c.881C>A (p.Thr294Lys),True
+4884393,FOXP2,550,N,K,Likely pathogenic,"criteria provided, single submitter",NM_014491.4(FOXP2):c.1650T>G (p.Asn550Lys),False
+4884478,ABCC2,1382,Q,K,Likely pathogenic,"criteria provided, single submitter",NM_000392.5(ABCC2):c.4144C>A (p.Gln1382Lys),True
+4884842,HEXA,212,P,T,Pathogenic,no assertion criteria provided,NM_000520.6(HEXA):c.634C>A (p.Pro212Thr),True
+4886918,GALNS,380,R,S,Likely pathogenic,"criteria provided, single submitter",NM_000512.5(GALNS):c.1140G>C (p.Arg380Ser),False
+4886950,CALM2,130,D,E,Likely pathogenic,"criteria provided, single submitter",NM_001743.6(CALM2):c.390T>A (p.Asp130Glu),False

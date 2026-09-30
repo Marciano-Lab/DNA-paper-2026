@@ -1,0 +1,12 @@
+name: oxog_tm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pandas=2.3.3
+  - numpy=2.3.4
+  - scipy=1.16.2
+  - statsmodels=0.14.6
+  - matplotlib=3.10.7
+  - openpyxl=3.1.5
+  - pillow=12.0.0

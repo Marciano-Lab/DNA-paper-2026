@@ -1,0 +1,2 @@
+test	status	expected	observed
+every byte-stable file matches its recorded checksum	FAIL	57 files	['Figure_Legends.md changed', 'data/figure_inputs/figure_legend_records.json changed']

@@ -1,0 +1,4 @@
+test	status	expected	observed
+every figure is at most 175 mm wide	PASS	at most 175 mm	maximum 161.2 mm
+no label below 7.5 pt	PASS	0	0
+no overlapping labels	PASS	0	0

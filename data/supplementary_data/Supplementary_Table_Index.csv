@@ -1,0 +1,8 @@
+supplementary_table,worksheet,title,biological_purpose,rows,columns,main_manuscript_callout
+S1,S1,Genetic-code consequences of coding-sense C>A changes,"Every cytosine of every sense codon with its C>A product codon and consequence class, defining the 18 accessible directional amino-acid substitutions",48,6,Results (Figure 1c)
+S2,S2,Accessible disease-associated protein states,"Every pathogenic or likely pathogenic ClinVar missense state reachable by a coding-sense C>A change, with codon context, route class, review support and oxidized-guanine map support",3910,23,Results
+S3a,S3a,Expression-class and disease-category screens,Permutation and exact-test screens of accessible-state fraction across expression classes and top-level disease categories,21,13,"Results, Supplementary Methods"
+S3b,S3b,Gene-context model estimates and specification sensitivity,Coefficients of the joint gene-level model and the alternative specifications summarized in Supplementary Figure S1,15,11,Supplementary Methods
+S4,S4,Pathway accessibility analysis,"Accessible-state enrichment and depletion for every estimable Reactome and Gene Ontology gene set, with the prespecified display subset",945,16,"Results, Results (Figure 3c)"
+S5,S5,Directly observed proteomic states,"The 78 exact codon-compatible amino-acid states observed in the published proteogenomic survey, with tissue distribution and oxidized-guanine map support",78,23,Supplementary Methods
+S6,S6,Oxidized-guanine map analysis,"Map support counts, the supported-subset sensitivity analysis and the model of map detection within accessible states",23,17,"Results, Results (Supplementary Figure S2)"

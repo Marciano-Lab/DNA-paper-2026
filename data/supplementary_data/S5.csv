@@ -1,0 +1,79 @@
+gene,protein_position,reference_amino_acid,alternate_amino_acid,mane_transcript,reference_codon,c_to_a_codon_position,product_codon,number_of_tissues,tissues,proteomic_substitution_ratio,number_of_source_observations,chromosome,genomic_coordinate,transcript_strand,template_guanine_coordinate,base_resolution_map_detection,endogenous_condition_detection,induced_condition_detection,click_code_seq_detection,any_map_detection,oxidized_guanine_support_category,clinvar_match
+ACTG1,101,H,N,NM_001614.5,CAC,1,AAC,13,adiposetissue;cancer;cerebralcortex;colon;duodenum;endometrium;gallbladder;ovary;prostategland;smallintestine;spleen;urinarybladder;vermiformappendix,-2.976103,3,chr17,81511965.0,-,81511965.0,True,True,False,False,True,endogenous,False
+ACTG1,101,H,Q,NM_001614.5,CAC,3,CAA,2,cancer;smallintestine,-3.6113926,3,chr17,81511963.0,-,81511963.0,True,True,False,False,True,endogenous,False
+ACTG1,161,H,Q,NM_001614.5,CAC,3,CAA,2,cancer;lung,-2.8041346,3,chr17,81511507.0,-,81511507.0,True,False,True,False,True,induced-only,False
+ACTG1,371,H,N,NM_001614.5,CAC,1,AAC,5,cerebralcortex;fallopiantube;saliva-secretinggland;spleen;tonsil,-3.995912,2,chr17,81510707.0,-,81510707.0,False,False,False,False,False,not detected,False
+ACTG2,102,H,N,NM_001615.4,CAC,1,AAC,10,colon;duodenum;endometrium;esophagus;fallopiantube;gallbladder;heart;prostategland;stomach;urinarybladder,-3.0840129,3,chr2,73908721.0,+,73908721.0,True,True,True,False,True,endogenous,False
+ACTN2,789,L,M,NM_001103.4,CTG,1,ATG,1,prostategland,-0.4184411,2,chr1,236759787.0,+,236759787.0,True,True,False,False,True,endogenous,False
+ALB,444,T,N,NM_000477.7,ACT,2,AAT,1,cancer,-3.3389661,1,chr4,73417572.0,+,73417572.0,False,False,False,False,False,not detected,False
+ALDH4A1,388,F,L,NM_003748.4,TTC,3,TTA,1,cancer,-2.2226062,2,chr1,18877229.0,-,18877229.0,False,False,False,False,False,not detected,False
+AMPD2,771,P,T,NM_001368809.2,CCT,1,ACT,1,cancer,-0.4258404,2,chr1,109630985.0,+,109630985.0,True,True,True,False,True,endogenous,False
+BGN,115,H,N,NM_001711.6,CAC,1,AAC,1,prostategland,-3.5504772,1,chrX,153505342.0,+,153505342.0,False,False,False,False,False,not detected,False
+C3,475,F,L,NM_000064.4,TTC,3,TTA,1,adiposetissue,-4.3310764,3,chr19,6711041.0,-,6711041.0,True,True,False,False,True,endogenous,False
+CAVIN1,102,T,N,NM_012232.6,ACC,2,AAC,1,cancer,-2.62143,1,chr17,42422793.0,-,42422793.0,False,False,False,False,False,not detected,False
+COL6A3,1006,H,N,NM_004369.4,CAT,1,AAT,1,placenta,-3.5796824,2,chr2,237376826.0,-,237376826.0,True,True,False,False,True,endogenous,False
+CORO1A,366,P,H,NM_007074.4,CCC,2,CAC,1,cancer,-1.6520926,1,chr16,30188392.0,+,30188392.0,False,False,False,False,False,not detected,False
+CPA1,58,H,N,NM_001868.4,CAC,1,AAC,1,pancreas,-3.0393814,2,chr7,130381654.0,+,130381654.0,True,False,True,False,True,induced-only,False
+DDX17,308,F,L,NM_006386.5,TTC,3,TTA,2,cancer;liver,1.11402479,1,,,,,False,False,False,False,False,unresolved,False
+EZR,375,L,M,NM_001111077.2,CTG,1,ATG,3,cancer;fallopiantube;lymphnode,-0.8736082,1,chr6,158769912.0,-,158769912.0,False,False,False,False,False,not detected,False
+FBP1,56,H,Q,NM_000507.4,CAC,3,CAA,1,liver,-3.2450122500000003,2,chr9,94639143.0,-,94639143.0,True,False,True,False,True,induced-only,False
+FLNA,2409,T,N,NM_001110556.2,ACC,2,AAC,3,endometrium;esophagus;stomach,-1.919865,1,chrX,154350138.0,-,154350138.0,False,False,False,False,False,not detected,False
+GAPDH,165,H,N,NM_002046.7,CAT,1,AAT,8,duodenum;heart;liver;lung;ovary;prostategland;stomach;testis,-4.0022638,1,chr12,6537358.0,+,6537358.0,False,False,False,False,False,not detected,False
+GAPDH,179,H,N,NM_002046.7,CAT,1,AAT,3,smallintestine;stomach;testis,-4.140625,3,chr12,6537593.0,+,6537593.0,True,False,True,False,True,induced-only,False
+GOSR2,3,P,T,NM_004287.5,CCC,1,ACC,1,lung,-0.5166274,1,chr17,46923199.0,+,46923199.0,False,False,False,False,False,not detected,False
+GOT2,423,H,N,NM_002080.4,CAT,1,AAT,1,heart,-2.6417195,2,chr16,58708197.0,-,58708197.0,True,True,True,False,True,endogenous,False
+H2BC15,53,T,N,NM_003520.4,ACC,2,AAC,1,cancer,-2.936875,2,chr6,27838819.0,+,27838819.0,False,False,False,False,False,not detected,False
+HBA2,20,A,E,NM_000517.6,GCG,2,GAG,7,cancer;cerebralcortex;gallbladder;placenta;saliva-secretinggland;spleen;urinarybladder,-3.2886044,1,chr16,172971.0,+,172971.0,False,False,False,False,False,not detected,False
+HBA2,21,H,N,NM_000517.6,CAC,1,AAC,11,cancer;colon;gallbladder;lung;ovary;placenta;prostategland;saliva-secretinggland;spleen;stomach;thyroidgland,-3.5907496,1,chr16,172973.0,+,172973.0,False,False,False,False,False,not detected,False
+HBA2,21,H,Q,NM_000517.6,CAC,3,CAA,6,cancer;lung;placenta;saliva-secretinggland;spleen;urinarybladder,-4.0571308,1,chr16,172975.0,+,172975.0,False,False,False,False,False,not detected,False
+HBA2,34,F,L,NM_000517.6,TTC,3,TTA,1,cancer,-3.5887535,1,chr16,173131.0,+,173131.0,False,False,False,False,False,not detected,False
+HBA2,46,H,N,NM_000517.6,CAC,1,AAC,21,adiposetissue;cancer;cerebralcortex;colon;duodenum;endometrium;esophagus;fallopiantube;gallbladder;kidney;lung;lymphnode;ovary;pancreas;placenta;prostategland;saliva-secretinggland;spleen;stomach;urinarybladder;vermiformappendix,-3.3049308,1,chr16,173165.0,+,173165.0,False,False,False,False,False,not detected,False
+HBA2,46,H,Q,NM_000517.6,CAC,3,CAA,5,adiposetissue;placenta;saliva-secretinggland;spleen;urinarybladder,-3.8981986,1,chr16,173167.0,+,173167.0,False,False,False,False,False,not detected,False
+HBA2,51,H,N,NM_000517.6,CAC,1,AAC,8,cancer;fallopiantube;ovary;placenta;saliva-secretinggland;spleen;urinarybladder;vermiformappendix,-3.2077533,1,chr16,173180.0,+,173180.0,False,False,False,False,False,not detected,False
+HBA2,51,H,Q,NM_000517.6,CAC,3,CAA,3,cancer;saliva-secretinggland;urinarybladder,-3.6992959,1,chr16,173182.0,+,173182.0,False,False,False,False,False,not detected,False
+HBA2,73,H,N,NM_000517.6,CAC,1,AAC,10,cancer;fallopiantube;liver;lung;placenta;saliva-secretinggland;spleen;stomach;urinarybladder;vermiformappendix,-3.0528014499999996,1,chr16,173246.0,+,173246.0,False,False,False,False,False,not detected,False
+HBA2,88,H,N,NM_000517.6,CAC,1,AAC,17,cancer;cerebralcortex;colon;duodenum;endometrium;esophagus;fallopiantube;gallbladder;heart;lung;placenta;prostategland;saliva-secretinggland;spleen;stomach;urinarybladder;vermiformappendix,-3.34230075,1,chr16,173291.0,+,173291.0,False,False,False,False,False,not detected,False
+HBA2,90,H,N,NM_000517.6,CAC,1,AAC,14,cancer;cerebralcortex;colon;fallopiantube;lung;lymphnode;placenta;prostategland;saliva-secretinggland;spleen;stomach;tonsil;urinarybladder;vermiformappendix,-3.6118637,1,chr16,173297.0,+,173297.0,False,False,False,False,False,not detected,False
+HBA2,123,H,N,NM_000517.6,CAC,1,AAC,3,cancer;placenta;saliva-secretinggland,-3.4122038,1,chr16,173538.0,+,173538.0,False,False,False,False,False,not detected,False
+HBA2,129,F,L,NM_000517.6,TTC,3,TTA,2,cancer;spleen,-3.522102,1,chr16,173558.0,+,173558.0,False,False,False,False,False,not detected,False
+HBB,3,H,N,NM_000518.5,CAT,1,AAT,2,cancer;spleen,-2.4841051,2,chr11,5227015.0,-,5227015.0,True,True,True,False,True,endogenous,False
+HBB,51,T,N,NM_000518.5,ACT,2,AAT,1,cancer,-2.9985376,2,chr11,5226740.0,-,5226740.0,True,True,True,False,True,endogenous,False
+HBB,78,H,N,NM_000518.5,CAC,1,AAC,11,adiposetissue;cancer;colon;fallopiantube;lung;pancreas;placenta;prostategland;saliva-secretinggland;spleen;vermiformappendix,-3.8462866,1,chr11,5226660.0,-,5226660.0,False,False,False,False,False,not detected,False
+HBB,78,H,Q,NM_000518.5,CAC,3,CAA,17,adiposetissue;cancer;cerebralcortex;colon;duodenum;esophagus;fallopiantube;gallbladder;liver;lung;lymphnode;placenta;prostategland;saliva-secretinggland;spleen;stomach;vermiformappendix,-3.74712925,1,chr11,5226658.0,-,5226658.0,False,False,False,False,False,not detected,False
+HBB,93,H,N,NM_000518.5,CAC,1,AAC,7,cancer;colon;lung;placenta;prostategland;spleen;vermiformappendix,-3.3807591500000003,4,chr11,5226615.0,-,5226615.0,True,True,True,False,True,endogenous,True
+HBB,98,H,N,NM_000518.5,CAC,1,AAC,7,cancer;colon;fallopiantube;gallbladder;placenta;saliva-secretinggland;spleen,-3.114246,4,chr11,5226600.0,-,5226600.0,True,True,True,False,True,endogenous,True
+HBB,117,H,N,NM_000518.5,CAT,1,AAT,3,cancer;placenta;saliva-secretinggland,-3.3521109,2,chr11,5225693.0,-,5225693.0,True,True,True,False,True,endogenous,False
+HBB,118,H,N,NM_000518.5,CAC,1,AAC,4,cancer;endometrium;placenta;saliva-secretinggland,-2.6523736,2,chr11,5225690.0,-,5225690.0,True,True,True,False,True,endogenous,False
+HBB,144,H,N,NM_000518.5,CAC,1,AAC,5,cancer;gallbladder;placenta;spleen;urinarybladder,-3.05199875,1,chr11,5225612.0,-,5225612.0,False,False,False,False,False,not detected,False
+HBB,147,H,N,NM_000518.5,CAC,1,AAC,3,gallbladder;liver;urinarybladder,-3.3706295,2,chr11,5225603.0,-,5225603.0,False,False,False,False,False,not detected,False
+HBB,147,H,Q,NM_000518.5,CAC,3,CAA,3,cancer;gallbladder;placenta,-3.20531,2,chr11,5225601.0,-,5225601.0,False,False,False,False,False,not detected,False
+HBD,98,H,N,NM_000519.4,CAC,1,AAC,1,spleen,-3.6873661,3,chr11,5234014.0,-,5234014.0,True,True,True,False,True,endogenous,False
+IDH2,74,H,N,NM_002168.4,CAC,1,AAC,1,liver,-3.6803077,3,chr15,90090632.0,-,90090632.0,True,True,True,True,True,endogenous,False
+IFI30,119,H,N,NM_006332.5,CAT,1,AAT,1,cancer,-2.9419944,3,chr19,18175350.0,+,18175350.0,True,True,False,False,True,endogenous,False
+KLK3,56,H,N,NM_001648.2,CAC,1,AAC,1,prostategland,-3.6425797,2,chr19,50856359.0,+,50856359.0,True,True,True,False,True,endogenous,False
+KRT5,215,L,M,NM_000424.4,CTG,1,ATG,1,cancer,-2.3617803,2,chr12,52519073.0,-,52519073.0,True,True,False,False,True,endogenous,False
+MBP,222,H,N,NM_001025101.2,CAC,1,AAC,1,cerebralcortex,-3.7355033,1,chr18,76989973.0,-,76989973.0,False,False,False,False,False,not detected,False
+MYH11,693,F,L,NM_002474.3,TTC,3,TTA,1,esophagus,-3.8314544,1,chr16,15748148.0,-,15748148.0,False,False,False,False,False,not detected,False
+MYH11,772,T,N,NM_002474.3,ACT,2,AAT,9,colon;esophagus;gallbladder;kidney;lymphnode;placenta;smallintestine;stomach;urinarybladder,-2.0694849,3,chr16,15747666.0,-,15747666.0,True,True,True,False,True,endogenous,False
+MYH7,1901,H,N,NM_000257.4,CAC,1,AAC,1,heart,-3.66081015,1,chr14,23413848.0,-,23413848.0,False,False,False,False,False,not detected,False
+MYL2,157,H,N,NM_000432.4,CAC,1,AAC,1,heart,-3.574969,2,chr12,110911109.0,-,110911109.0,True,True,False,False,True,endogenous,False
+MYL6,69,H,N,NM_021019.5,CAC,1,AAC,1,colon,-3.395653,2,chr12,56160004.0,+,56160004.0,True,True,True,False,True,endogenous,False
+NAGLU,560,L,M,NM_000263.4,CTG,1,ATG,2,liver;saliva-secretinggland,0.68437448,1,chr17,42543684.0,+,42543684.0,False,False,False,False,False,not detected,False
+OGA,854,P,T,NM_012215.5,CCA,1,ACA,1,cancer,-0.4731092,2,chr10,101787418.0,-,101787418.0,True,True,False,False,True,endogenous,False
+PAPOLA,86,P,T,NM_032632.5,CCA,1,ACA,1,cancer,-0.3293258,2,chr14,96525316.0,+,96525316.0,False,False,False,False,False,not detected,False
+PRH2,100,H,N,NM_001110213.1,CAT,1,AAT,1,saliva-secretinggland,-3.5735256,2,chr12,10930859.0,+,10930859.0,True,True,True,False,True,endogenous,False
+PRPS1,250,H,N,NM_002764.4,CAT,1,AAT,1,testis,-4.0142463,3,chrX,107647649.0,+,107647649.0,True,False,True,False,True,induced-only,False
+RRBP1,216,P,Q,NM_001365613.2,CCA,2,CAA,1,cancer,-1.35886425,2,chr20,17659861.0,-,17659861.0,True,True,True,False,True,endogenous,False
+SBSPON,58,F,L,NM_153225.4,TTC,3,TTA,1,esophagus,0.44409025,1,chr8,73092894.0,-,73092894.0,False,False,False,False,False,not detected,False
+SCAF11,701,H,Q,NM_004719.3,CAC,3,CAA,1,cancer,0.00460275,2,chr12,45927598.0,-,45927598.0,True,True,False,False,True,endogenous,False
+SERPINA1,44,H,N,NM_000295.5,CAC,1,AAC,4,colon;lung;smallintestine;stomach,-3.6209085,1,chr14,94383108.0,-,94383108.0,False,False,False,False,False,not detected,False
+SERPINA1,233,H,N,NM_000295.5,CAC,1,AAC,1,adiposetissue,-4.2874485,2,chr14,94381091.0,-,94381091.0,True,False,True,False,True,induced-only,False
+SORD,286,H,N,NM_003104.6,CAT,1,AAT,1,liver,-4.0517835,1,chr15,45072386.0,+,45072386.0,False,False,False,False,False,not detected,False
+SULT2A1,99,H,N,NM_003167.4,CAC,1,AAC,1,liver,-2.8419653,2,chr19,47883627.0,-,47883627.0,False,False,False,False,False,not detected,False
+TG,236,H,N,NM_003235.5,CAC,1,AAC,1,thyroidgland,-3.5202756,2,chr8,132881930.0,+,132881930.0,True,False,True,False,True,induced-only,False
+TG,313,H,N,NM_003235.5,CAC,1,AAC,1,thyroidgland,-2.2477041,2,chr8,132882861.0,+,132882861.0,True,False,True,False,True,induced-only,False
+TG,386,H,N,NM_003235.5,CAC,1,AAC,1,thyroidgland,-4.0622145,2,chr8,132886528.0,+,132886528.0,True,False,True,False,True,induced-only,False
+TG,976,F,L,NM_003235.5,TTC,3,TTA,1,thyroidgland,-4.2055161,2,chr8,132893856.0,+,132893856.0,True,True,False,False,True,endogenous,False
+TG,1429,H,N,NM_003235.5,CAC,1,AAC,1,thyroidgland,-3.2828041,2,chr8,132913172.0,+,132913172.0,True,True,True,False,True,endogenous,False
+TG,1669,H,N,NM_003235.5,CAT,1,AAT,1,thyroidgland,-3.6267053,2,chr8,132935828.0,+,132935828.0,True,True,False,False,True,endogenous,False
+TG,2661,H,N,NM_003235.5,CAC,1,AAC,1,thyroidgland,-3.4849962,1,chr8,133131930.0,+,133131930.0,False,False,False,False,False,not detected,False

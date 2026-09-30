@@ -1,0 +1,12 @@
+test	status	expected	observed
+every indexed dataset file exists	PASS	7	all present
+the index lists exactly the distributed datasets	PASS	['S1', 'S2', 'S3a', 'S3b', 'S4', 'S5', 'S6']	['S1', 'S2', 'S3a', 'S3b', 'S4', 'S5', 'S6']
+no duplicate column names	PASS	none	none
+no row-index column	PASS	none	none
+index row and column counts match the files	PASS	none	none
+no entirely empty column	PASS	none	none
+no retired field is distributed	PASS	none	none
+codon fields contain three unambiguous bases	PASS	none	none
+residue fields are single-letter codes or the stop symbol	PASS	none	none
+boolean fields coerce cleanly	PASS	none	none
+probability fields lie between zero and one	PASS	none	none

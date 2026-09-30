@@ -1,0 +1,16 @@
+check	expected	observed	status
+total accessible disease-associated states	3910	3910	PASS
+exact nucleotide route	3115	3115	PASS
+same codon position, other alternate base	584	584	PASS
+different codon position, same amino-acid state	211	211	PASS
+HEXA VariationID 4884842 present in the state set	1	1	PASS
+HEXA reference codon	CCA	CCA	PASS
+HEXA C>A product codon	ACA	ACA	PASS
+states entering by any rule other than the documented filters	0	0	PASS
+qualifying recent candidate records enumerated	195	195	PASS
+candidates already present in the state set	144	144	PASS
+absent candidates created after the retrieved release	2	2	PASS
+absent pre-release candidates tested at the codon level	49	49	PASS
+HEXA route class	exact nucleotide concordance	exact nucleotide concordance	PASS
+absent candidates whose reference residue reconciled to the MANE codon	49	49	PASS
+absent candidates admitting a coding-sense C>A route	0	0	PASS

@@ -1,0 +1,110 @@
+dataset,column,data_type,definition,unit_or_scale,allowed_values,missing_value_meaning,source_or_derivation,n_missing,example
+S1,c_to_a_codon_position,integer,Codon position of the cytosine whose change to adenine produces the substitution,codon position,1 to 3,never missing,derived from the reference codon,0,3
+S1,consequence_class,text,Coding consequence of the C>A change,category,"missense, stop_gained, synonymous",never missing,standard genetic code,0,missense
+S1,product_amino_acid,text,Residue encoded by the product codon,one-letter code,18 distinct text values,never missing,standard genetic code,0,K
+S1,product_codon,text,Codon after the coding-sense C>A change,three-base codon,37 distinct text values,never missing,derived from reference codon and position,0,AAA
+S1,reference_amino_acid,text,Wild-type residue at that position,one-letter code,16 distinct text values,never missing,MANE Select translation,0,N
+S1,reference_codon,text,Wild-type codon at that residue,three-base codon,37 distinct text values,never missing,MANE Select coding sequence,0,AAC
+S2,alternate_amino_acid,text,Substituted residue,one-letter code,13 distinct text values,never missing,ClinVar protein change reconciled to MANE,0,L
+S2,any_map_detection,boolean,Coordinate detected in at least one map resource,boolean,TRUE or FALSE,never missing,union of the two map resources,0,True
+S2,base_resolution_map_detection,boolean,Coordinate detected in the base-resolution oxidized-guanine map,boolean,TRUE or FALSE,never missing,"base-resolution map, GSE181312",0,True
+S2,c_to_a_codon_position,integer,Codon position of the cytosine whose change to adenine produces the substitution,codon position,1 to 3,never missing,derived from the reference codon,0,3
+S2,chromosome,text,Chromosome of the coding position,GRCh38 chromosome,"chr1 to chr22, chrX, chrY",never missing,GRCh38,0,chr16
+S2,click_code_seq_detection,boolean,Coordinate detected on the template strand by click-code-seq,boolean,TRUE or FALSE,never missing,"click-code-seq, GSE295218",0,False
+S2,clinvar_review_stars,integer,Review status expressed as ClinVar stars,stars,0 to 4,never missing,derived from clinvar_review_status,0,0
+S2,clinvar_review_status,text,ClinVar aggregate review status of that record,category,"criteria provided, multiple submitters, no conflicts, criteria provided, single submitter, no assertion criteria provided, practice guideline, reviewed by expert panel",never missing,ClinVar,0,no assertion criteria provided
+S2,clinvar_variation_id,integer,ClinVar Variation ID of a qualifying pathogenic or likely pathogenic variant,identifier,"50 to 4,884,842",never missing,"ClinVar GRCh38 variant summary, retrieved August 27, 2026",0,50
+S2,distance_from_exon_boundary,integer,Distance from the coding position to the nearest annotated exon boundary,nucleotides,"0 to 4,464",never missing,derived from MANE genomic annotation,0,214
+S2,gene,text,HGNC gene symbol,symbol,"1,333 distinct text values",never missing,MANE Select annotation,0,TBC1D24
+S2,genomic_coordinate,integer,GRCh38 coordinate of the accessible coding cytosine,"base position, 1-based","47,150 to 247,425,147",never missing,MANE transcript model,0,2496899
+S2,higher_confidence_subset,boolean,State meets at least two ClinVar review stars and is not splice-proximal,boolean,TRUE or FALSE,never missing,"derived, Methods",0,False
+S2,mane_transcript,text,MANE Select v1.5 RefSeq transcript used for all coordinates,accession,"1,333 distinct text values",never missing,MANE Select v1.5,0,NM_001199107.2
+S2,map_condition_category,text,Source conditions under which the coordinate was detected,category,"Vitro, Vitro;Vivo, Vitro;Vivo;WildType, Vitro;WildType, Vivo, Vivo;WildType, WildType",empty when the coordinate is not detected,base-resolution map condition tracks,1913,Vitro
+S2,phenotype,text,Condition names reported by ClinVar for the record,free text,"2,217 distinct text values",never missing,ClinVar,0,Familial infantile myoclonic epilepsy
+S2,product_codon,text,Codon after the coding-sense C>A change,three-base codon,26 distinct text values,never missing,derived from reference codon and position,0,TTA
+S2,protein_position,integer,Residue number in the MANE Select translation,"residue index, 1-based","2 to 31,786",never missing,MANE Select translation,0,251
+S2,reference_amino_acid,text,Wild-type residue at that position,one-letter code,11 distinct text values,never missing,MANE Select translation,0,F
+S2,reference_codon,text,Wild-type codon at that residue,three-base codon,28 distinct text values,never missing,MANE Select coding sequence,0,TTC
+S2,route_class,text,Relationship between the documented genomic allele and the C>A transcriptional event,category,"different-position convergence, exact nucleotide concordance, same-position, alternate-base convergence",never missing,"variant-level route classification, Methods",0,different-position convergence
+S2,splice_proximal,boolean,Coding position lies within three nucleotides of an annotated exon boundary,boolean,TRUE or FALSE,never missing,derived from MANE genomic annotation,0,False
+S2,transcript_strand,text,Genomic strand of the transcript,strand,"+, -",never missing,MANE Select annotation,0,+
+S3a,n_genes,integer,Genes contributing to the row,count,"53 to 2,733",never missing,analysis output,0,147
+S3a,n_permutations,float,Number of gene-label permutations used for the class screen,count,2000 for the two expression screens,"missing for the disease-category screen, which uses an exact test rather than permutation",analysis parameter,10,2000.0
+S3a,n_permutations_exceeding,float,"Number of permutations at least as extreme as the observed value, the quantity b in the P value formula",count,0 to 2000,missing for the disease-category screen,analysis output,10,2.0
+S3a,null_pct,float,Permutation or comparator fraction,percent,5.111 to 6.048,never missing,analysis output,0,5.390130746520456
+S3a,observed_pct,float,Observed accessible fraction,percent,3.693 to 7.67,never missing,analysis output,0,6.055003466605038
+S3a,odds_ratio,float,Odds of accessibility relative to the comparator,ratio,0.7034 to 1.159,missing for permutation rows,analysis output,11,1.1313002519696558
+S3a,p_value,float,Unadjusted P value,probability,0.00025 to 0.995,never missing,analysis output,0,0.7842965859732327
+S3a,p_value_method,text,Exact estimator used for the P value in this row,not applicable,"three values, one per screen",never missing,analysis label,0,gene-level Fisher exact test against all other c
+S3a,q_value,float,Benjamini-Hochberg adjusted P value within the screen,probability,0.002 to 0.995,never missing,analysis output,0,0.8255753536560345
+S3a,resource,text,Annotation resource screened,category,"Human Protein Atlas, MONDO via ClinVar phenotypes",never missing,analysis label,0,MONDO via ClinVar phenotypes
+S3a,screen,text,Which screen the row belongs to,category,"disease ontology top-level category, expression atlas broad class, expression atlas single-cell type class",never missing,analysis label,0,disease ontology top-level category
+S3a,term,text,"Class, category or model term tested",text,21 distinct text values,never missing,resource annotation,0,Eye
+S3a,z,float,Standardized deviation from the permutation null,z score,-2.698 to 2.963,missing for category rows,analysis output,10,2.953
+S3b,analysis,text,Which analysis the estimate belongs to,category,"gene-group accessible fractions, primary interaction model, specification sensitivity",never missing,analysis label,0,gene-group accessible fractions
+S3b,ci_lower,float,Lower bound of the 95% interval,percent or ratio,0.7113 to 6.385,missing for rows that report a descriptive total rather than an estimate with an interval,analysis output,1,6.3847
+S3b,ci_upper,float,Upper bound of the 95% interval,percent or ratio,0.8996 to 8.031,missing for rows that report a descriptive total rather than an estimate with an interval,analysis output,1,8.0315
+S3b,estimate,float,Point estimate,percent or ratio,0.8 to 7.299,never missing,analysis output,0,7.2993
+S3b,estimate_type,text,Quantity reported,category,"accessible fraction (%), odds ratio",never missing,analysis label,0,accessible fraction (%)
+S3b,interval_method,text,How the interval was computed,text,"HC1 robust Wald, whole-gene bootstrap, whole-gene bootstrap, 2,000 resamples, 2.5th and 97.5th percentiles",never missing,analysis label,0,"whole-gene bootstrap, 2,000 resamples, 2.5th and"
+S3b,n_accessible,float,Accessible states contributing,count,"203 to 3,836",missing for sensitivity rows,analysis output,4,1073.0
+S3b,n_genes,float,Genes contributing to the row,count,"337 to 4,247",missing where the row is a model term without a gene count,analysis output,4,454.0
+S3b,n_states,float,Eligible states contributing,count,"3,749 to 66,974",missing for sensitivity rows,analysis output,4,14700.0
+S3b,p_value,float,Unadjusted P value,probability,0.000194 to 0.868,missing where not defined,analysis output,9,0.867972
+S3b,term,text,"Class, category or model term tested",text,15 distinct text values,never missing,resource annotation,0,post-mitotic and neurological
+S4,ci_lower,float,Lower bound of the 95% HC1 robust Wald interval,odds ratio,positive real,never missing,Model fit,0,0.0275354849900657
+S4,ci_upper,float,Upper bound of the 95% HC1 robust Wald interval,odds ratio,positive real,never missing,Model fit,0,0.0748392299075222
+S4,direction,text,Direction of the estimated association for the gene set,not applicable,"enriched, depleted",never missing,Derived from the sign of the estimated odds ratio relative to one,0,enriched
+S4,display_selection_reason,text,Which clause of the display rule selected the set,rule clause,4 distinct text values,never missing,prespecified display rule,0,among the six depleted sets with the smalles
+S4,displayed_in_Figure3c,boolean,Whether the gene set is among the prespecified subset displayed in Figure 3c,true or false,true or false,never missing,prespecified display rule stated in Methods,0,True
+S4,gene_set_source,text,Resource providing the gene set,resource name,Reactome or GO,never missing,source manifest,0,Reactome
+S4,n_accessible,integer,Accessible disease-associated states summed over the genes in the set,count,non-negative integer,never missing,Sum of per-gene accessible counts,0,12
+S4,n_eligible,integer,Eligible disease-associated states summed over the genes in the set,count,positive integer,never missing,Sum of per-gene eligible counts,0,4362
+S4,n_genes,integer,Number of analysis-universe genes in the set,count,20 to 500,never missing,Intersection of the set with the model gene universe,0,26
+S4,odds_ratio,float,Odds ratio for set membership on the odds of a state being accessible,odds ratio,positive real,never missing,Exponentiated coefficient of the membership term in the gene-level binomial model,0,0.0453953135443148
+S4,p_value,float,Wald P value for the membership term,probability,0 to 1,never missing,Model fit with HC1 robust standard errors,0,7.918829966561566e-34
+S4,passes_fdr,boolean,Whether the gene set passes Benjamini-Hochberg correction at a q value below 0.05,not applicable,"True, False",never missing,Derived from the q value of the gene-set model,0,True
+S4,pathway_id,text,Stable identifier of the gene set in its source resource,not applicable,Reactome stable identifier or GO term identifier,never missing,Source resource,0,R-HSA-8948216
+S4,pathway_name,text,Name of the gene set as given by its source resource,not applicable,free text,never missing,"Reactome pathway name, or GO term name read from the go-basic ontology",0,Collagen chain trimerization
+S4,q_value,float,Benjamini-Hochberg adjusted P value across estimated sets,probability,0 to 1,never missing,Adjustment across the estimated sets of this analysis,0,7.48329431840068e-31
+S4,synaptic_or_neuronal,boolean,Whether the set name matches the synaptic or neuronal annotation rule stated in Methods,true or false,true or false,never missing,keyword rule with the DNA-pairing exclusion,0,False
+S5,alternate_amino_acid,text,Substituted residue,one-letter code,"E, H, L, M, N, Q, T",never missing,ClinVar protein change reconciled to MANE,0,N
+S5,any_map_detection,boolean,Coordinate detected in at least one map resource,boolean,TRUE or FALSE,never missing,union of the two map resources,0,True
+S5,base_resolution_map_detection,boolean,Coordinate detected in the base-resolution oxidized-guanine map,boolean,TRUE or FALSE,never missing,"base-resolution map, GSE181312",0,True
+S5,c_to_a_codon_position,integer,Codon position of the cytosine whose change to adenine produces the substitution,codon position,1 to 3,never missing,derived from the reference codon,0,1
+S5,chromosome,text,Chromosome of the coding position,GRCh38 chromosome,"chr1 to chr22, chrX, chrY",empty where the source record omits it,GRCh38,1,chr17
+S5,click_code_seq_detection,boolean,Coordinate detected on the template strand by click-code-seq,boolean,TRUE or FALSE,never missing,"click-code-seq, GSE295218",0,False
+S5,clinvar_match,boolean,State also annotated pathogenic or likely pathogenic in ClinVar at the same residue,boolean,TRUE or FALSE,never missing,intersection with the ClinVar catalog,0,False
+S5,endogenous_condition_detection,boolean,Detected in a dataset generated without exogenous oxidant,boolean,TRUE or FALSE,never missing,base-resolution map condition tracks,0,True
+S5,gene,text,HGNC gene symbol,symbol,44 distinct text values,never missing,MANE Select annotation,0,ACTG1
+S5,genomic_coordinate,float,GRCh38 coordinate of the accessible coding cytosine,"base position, 1-based","172,971 to 237,376,826",empty where unresolved,MANE transcript model,1,81511965.0
+S5,induced_condition_detection,boolean,Detected under induced oxidative conditions,boolean,TRUE or FALSE,never missing,base-resolution map condition tracks,0,False
+S5,mane_transcript,text,MANE Select v1.5 RefSeq transcript used for all coordinates,accession,44 distinct text values,never missing,MANE Select v1.5,0,NM_001614.5
+S5,number_of_source_observations,integer,Number of peptide-spectrum observations supporting the state in the source study,count,1 to 4,never missing,proteogenomic source publication,0,3
+S5,number_of_tissues,integer,Number of tissues in which the source observed the state,count,1 to 21,never missing,proteogenomic source publication,0,13
+S5,oxidized_guanine_support_category,text,Mutually exclusive lesion-map support category,classification,"endogenous, induced-only, not detected or unresolved",never missing,map detection flags and coordinate resolution,0,endogenous
+S5,product_codon,text,Codon after the coding-sense C>A change,three-base codon,10 distinct text values,never missing,reference codon with the accessible cytosine replaced by adenine,0,AAC
+S5,protein_position,integer,Residue number in the MANE Select translation,"residue index, 1-based","3 to 2,661",never missing,MANE Select translation,0,101
+S5,proteomic_substitution_ratio,float,"Substitution ratio as reported by the source proteogenomic study, reproduced without reinterpretation",source-study scale,-4.331 to 1.114,never missing,"proteogenomic source publication, carried as source metadata",0,-2.976103
+S5,reference_amino_acid,text,Wild-type residue at that position,one-letter code,"A, F, H, L, P, T",never missing,MANE Select translation,0,H
+S5,reference_codon,text,Wild-type codon at that residue,three-base codon,10 distinct text values,never missing,MANE Select coding sequence,0,CAC
+S5,template_guanine_coordinate,float,Coordinate of the template-strand guanine whose oxidation produces the change,"base position, 1-based","172,971 to 237,376,826",empty for the one state whose codon spans an exon junction unresolvably,derived from transcript orientation,1,81511965.0
+S5,tissues,text,Tissues in which the source observed the state,free text,48 distinct text values,never missing,proteogenomic source publication,0,adiposetissue;cancer;cerebralcortex;colon;duoden
+S5,transcript_strand,text,Genomic strand of the transcript,strand,"+, -","missing for the one observed state whose lesion coordinate could not be resolved to a single genomic position, so no transcript strand is defined",MANE Select annotation,1,-
+S6,analysis,text,Analysis that the row reports,analysis name,6 distinct text values,never missing,assigned when the analysis was run,0,map support counts
+S6,ci_lower,number,Lower bound of the 95% interval,odds ratio,0.43 to 1.42,not applicable to this analysis,Wald or percentile bound as stated in the stratum,12,1.077
+S6,ci_upper,number,Upper bound of the 95% interval,odds ratio,1.19 to 5.80,not applicable to this analysis,Wald or percentile bound as stated in the stratum,12,2.061
+S6,n_genes,integer,Number of genes contributing to the row,genes,791 to 2652,not applicable to this analysis,count of model genes in the stratum,14,791
+S6,n_mapped,integer,States whose template-strand guanine coordinate was detected in a mapping resource,states,88 to 2146,not applicable to this analysis,map detection flags in S2,17,2146
+S6,n_permutations,integer,Number of permutation or bootstrap resamples,resamples,2000,not applicable to this analysis,fixed by the analysis specification,22,2000
+S6,n_states,integer,Number of accessible disease-associated states contributing to the row,states,977 to 3910,not applicable to this analysis,count of states in the stratum,10,3910
+S6,null_pct,number,Mean percentage under gene-label permutation,percent,3.2 to 5.7,not applicable to this analysis,"mean of 2,000 permutation replicates",17,5.748
+S6,observed_pct,number,Observed percentage of eligible states that are accessible or supported,percent,2.8 to 6.9,not applicable to this analysis,summed successes divided by summed eligible states,17,6.916
+S6,odds_ratio,number,Odds ratio for the model term or comparison,odds ratio,0.72 to 2.87,not applicable to this analysis,exponentiated regression coefficient,12,1.490
+S6,p_value,number,P value for the term or comparison,probability,0.0005 to 0.9955,not applicable to this analysis,robust Wald test or one-sided permutation test,7,0.000
+S6,pct_mapped,number,Percentage of states in the stratum with map detection,percent,43.3 to 57.2,not applicable to this analysis,n_mapped divided by n_states,17,54.880
+S6,q_value,number,Benjamini-Hochberg adjusted P value within the analysis,probability,0.0015 to 0.9955,not applicable to this analysis,Benjamini-Hochberg across classes,17,0.002
+S6,stratum,text,"Stratum, model term or specification the row refers to",stratum name,20 distinct text values,never missing,assigned when the analysis was run,0,all accessible states
+S6,successes,integer,Binomial successes summed across genes,states,"556 to 3,836",not applicable to this analysis,per-gene accessible or supported state counts,20,3836
+S6,trials,integer,Binomial trials summed across genes,states,"66,974",not applicable to this analysis,per-gene eligible missense state counts,20,66974
+S6,z,number,Standardized deviation of the observed percentage from the permutation distribution,standard deviations,-2.4 to 2.9,not applicable to this analysis,observed minus permutation mean divided by permutation standard deviation,17,2.882

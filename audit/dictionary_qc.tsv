@@ -1,0 +1,5 @@
+test	status	expected	observed
+every distributed field has a dictionary entry	PASS	none	none
+every dictionary entry describes a distributed field	PASS	none	none
+no dictionary entry is duplicated	PASS	109	109
+no dictionary field is blank	PASS	no blanks	checked every cell

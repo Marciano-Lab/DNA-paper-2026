@@ -1,0 +1,3 @@
+resource	accession	strand_resolution	coordinate_interpretation	evidence_provided
+base-resolution oxidation map	GSE181312	not experimentally resolved: one coverage track per sample, no strand-split files	genomic coordinate intersected with MANE transcript orientation	coordinate compatibility with a transcribed-strand guanine, not direct observation of modification on the transcribed strand
+Click-code-seq	GSE295218	experimentally resolved: strand recorded per coordinate record	record strand required to match the transcribed strand of the overlapping transcript	strand-resolved detection at the coordinate

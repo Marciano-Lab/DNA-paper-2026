@@ -1,0 +1,5 @@
+subset,n_states,n_genes,n_with_mapped_lesion
+all 78 states,78,44,38
+excluding HBA/HBB cluster,53,41,31
+excluding His to Asn,34,25,13
+excluding both,25,23,12
